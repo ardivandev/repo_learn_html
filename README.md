@@ -1,7 +1,6 @@
 # Belajar HTML
 
-Repository ini berisi kumpulan materi dasar HTML untuk pemula.  
-Cocok untuk siswa RPL, web development beginner, atau siapa saja yang ingin memahami dasar pembuatan website menggunakan HTML.
+Repository ini berisi kumpulan materi dasar HTML yang telah saya pelajari..  
 
 ---
 
