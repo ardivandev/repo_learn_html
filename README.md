@@ -1,6 +1,6 @@
 # Belajar HTML
 
-Repository ini berisi kumpulan materi dasar HTML yang telah saya pelajari..  
+Repository ini berisi kumpulan materi dasar HTML yang telah saya pelajari..
 
 ---
 
@@ -29,7 +29,10 @@ Repository ini berisi kumpulan materi dasar HTML yang telah saya pelajari..
 Belajar menggunakan tag heading seperti:
 
 ```html
-<h1> sampai <h6>
+<h1>
+  sampai
+  <h6></h6>
+</h1>
 ```
 
 Digunakan untuk membuat judul dan subjudul pada halaman website.
@@ -41,7 +44,7 @@ Digunakan untuk membuat judul dan subjudul pada halaman website.
 Belajar membuat paragraf menggunakan:
 
 ```html
-<p>
+<p></p>
 ```
 
 ---
@@ -60,8 +63,7 @@ Mempelajari format teks seperti:
 Contoh:
 
 ```html
-<b>Bold</b>
-<i>Italic</i>
+<b>Bold</b> <i>Italic</i>
 ```
 
 ---
@@ -72,7 +74,8 @@ Belajar membuat kutipan menggunakan:
 
 ```html
 <blockquote>
-<q>
+  <q></q>
+</blockquote>
 ```
 
 ---
@@ -82,7 +85,7 @@ Belajar membuat kutipan menggunakan:
 Membuat hyperlink menggunakan:
 
 ```html
-<a href="">
+<a href=""></a>
 ```
 
 ---
@@ -92,7 +95,7 @@ Membuat hyperlink menggunakan:
 Menampilkan gambar menggunakan:
 
 ```html
-<img src="" alt="">
+<img src="" alt="" />
 ```
 
 ---
@@ -103,9 +106,11 @@ Belajar membuat tabel HTML menggunakan:
 
 ```html
 <table>
-<tr>
-<td>
-<th>
+  <tr>
+    <td></td>
+    <th></th>
+  </tr>
+</table>
 ```
 
 ---
@@ -126,7 +131,8 @@ Belajar pengelompokan elemen menggunakan:
 
 ```html
 <div>
-<span>
+  <span></span>
+</div>
 ```
 
 ---
@@ -136,7 +142,7 @@ Belajar pengelompokan elemen menggunakan:
 Menampilkan halaman atau video dari website lain menggunakan:
 
 ```html
-<iframe>
+<iframe></iframe>
 ```
 
 ---
@@ -147,11 +153,16 @@ Belajar struktur semantic HTML seperti:
 
 ```html
 <header>
-<nav>
-<main>
-<section>
-<article>
-<footer>
+  <nav>
+    <main>
+      <section>
+        <article>
+          <footer></footer>
+        </article>
+      </section>
+    </main>
+  </nav>
+</header>
 ```
 
 Agar struktur website lebih rapi dan mudah dipahami browser.
@@ -178,18 +189,19 @@ Belajar menampilkan media pada website menggunakan:
 
 ```html
 <video>
-<audio>
+  <audio></audio>
+</video>
 ```
 
 Contoh:
 
 ```html
 <video controls>
-    <source src="video.mp4" type="video/mp4">
+  <source src="video.mp4" type="video/mp4" />
 </video>
 
 <audio controls>
-    <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.mp3" type="audio/mpeg" />
 </audio>
 ```
 
@@ -209,14 +221,6 @@ Repository ini dibuat untuk:
 ## 🛠️ Teknologi
 
 - HTML5
-
----
-
-## 🌐 Demo Website
-
-Lihat hasil website di sini:
-
-[🔗 Kunjungi Website](https://ardivandev.github.io/repo_learn_html/)
 
 ---
 
