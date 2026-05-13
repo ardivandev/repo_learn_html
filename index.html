@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta -->
+    <meta name="description" content="Membuat website menggunakan html" />
+    <meta name="keyword" content="HTML, Learn HTML, Belajar HTML" />
+    <meta name="author" content="Ardivan Developer" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="asset/favicon-img.png" type="image/x-icon" />
+
+    <!-- Fonst -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>HTML | Mini Project</title>
+
+    <!-- Style Sedikit -->
+    <style>
+      * {
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header,
+      main,
+      footer,
+      section {
+        padding: 30px;
+        margin: 15px;
+        border-radius: 10px;
+      }
+
+      header {
+        background-color: #002f80;
+        color: white;
+      }
+
+      header h1 {
+        text-align: center;
+        margin: 20px 0px;
+      }
+
+      header nav ul {
+        justify-content: center;
+        display: flex;
+        list-style-type: none;
+      }
+
+      header nav ul li {
+        margin: 0px 10px;
+        font-size: 13px;
+      }
+
+      header nav ul li a {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+
+      header nav ul li a:hover {
+        opacity: 0.8;
+      }
+
+      main {
+        background-color: #232323;
+      }
+
+      main section {
+        background-color: white;
+      }
+
+      section h2 {
+        margin: 20px 0px;
+        text-align: center;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px 0px;
+        background-color: #e2e2e2;
+        border-radius: 10px;
+      }
+
+      article * {
+        margin: 10px 0px;
+      }
+
+      section form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      table tr td {
+        padding: 5px;
+      }
+
+      footer {
+        background-color: #002f80;
+        color: white;
+      }
+
+      footer p {
+        text-align: center;
+      }
+
+      /* Mobile Phone */
+      @media screen and (max-width: 450px) {
+        html {
+          font-size: 80%;
+        }
+        header nav ul {
+          flex-direction: column;
+        }
+
+        header nav ul li {
+          margin: 5px 0px;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PROJECT HTML <br />Pembuatan Website Pembelajaran</h1>
+      <nav>
+        <ul>
+          <li><a href="Modul01/heading.html" target="iframe_learn_html">Materi Heading</a></li>
+          <li><a href="Modul02/paragraf.html" target="iframe_learn_html">Materi Paragraf</a></li>
+          <li>
+            <a href="Modul03/formatting.html" target="iframe_learn_html">Materi Text Formatting</a>
+          </li>
+          <li><a href="Modul04/qoute.html" target="iframe_learn_html">Materi Quotations</a></li>
+          <li><a href="Modul05/link.html" target="iframe_learn_html">Materi Link</a></li>
+          <li><a href="Modul06/image.html" target="iframe_learn_html">Materi Gambar</a></li>
+          <li><a href="Modul07/table.html" target="iframe_learn_html">Materi Tabel</a></li>
+          <li><a href="Modul08/list.html" target="iframe_learn_html">Materi List</a></li>
+          <li>
+            <a href="Modul09/div-and-span.html" target="iframe_learn_html">Materi Div & Span</a>
+          </li>
+          <li><a href="Modul10/iframe.html" target="iframe_learn_html">Materi Iframe</a></li>
+          <li><a href="Modul11/semantik.html" target="iframe_learn_html">Materi Semantik</a></li>
+          <li><a href="Modul12/form.html" target="iframe_learn_html">Materi Form</a></li>
+          <li><a href="Modul13/media.html" target="iframe_learn_html">Materi Media</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section>
+        <h2>Materi</h2>
+        <iframe
+          src="asset/default-iframe.html"
+          name="iframe_learn_html"
+          frameborder="0"
+          width="100%"
+          height="400px"
+          title="Iframe Project HTML"
+        ></iframe>
+      </section>
+      <section>
+        <h2>Berita</h2>
+        <article>
+          <h3>Apa Itu HTML?</h3>
+          <p>
+            HTML (HyperText Markup Language) adalah bahasa dasar yang digunakan untuk membuat
+            struktur halaman website. Dengan HTML, developer dapat membuat heading, paragraf,
+            gambar, link, tabel, hingga form pada sebuah halaman web.
+          </p>
+          <p>
+            HTML bekerja berdampingan dengan CSS dan JavaScript. HTML bertugas menyusun struktur,
+            CSS mengatur tampilan, sedangkan JavaScript menambahkan interaksi agar website menjadi
+            lebih dinamis dan modern.
+          </p>
+        </article>
+
+        <article>
+          <h3>Fungsi Tag Semantic di HTML</h3>
+          <p>
+            Tag semantic pada HTML digunakan untuk memberikan arti yang jelas terhadap isi sebuah
+            halaman website. Contohnya seperti header, nav, main, section, article, dan footer yang
+            membantu browser memahami struktur halaman.
+          </p>
+          <p>
+            Selain membuat kode lebih rapi, semantic HTML juga membantu SEO dan aksesibilitas
+            website. Mesin pencari seperti Google lebih mudah memahami konten sehingga website
+            memiliki peluang lebih baik muncul di hasil pencarian.
+          </p>
+        </article>
+
+        <article>
+          <h3>Perbedaan HTML dan CSS</h3>
+          <p>
+            Banyak pemula mengira HTML dan CSS adalah hal yang sama, padahal keduanya memiliki
+            fungsi berbeda. HTML digunakan untuk membuat struktur konten seperti judul, teks, dan
+            gambar.
+          </p>
+          <p>
+            Sedangkan CSS digunakan untuk mempercantik tampilan website, seperti mengubah warna,
+            ukuran font, layout, hingga animasi. Kombinasi HTML dan CSS membuat website menjadi
+            lebih menarik dan nyaman dilihat pengguna.
+          </p>
+        </article>
+
+        <article>
+          <h3>Mengapa Belajar HTML Itu Penting?</h3>
+          <p>
+            HTML adalah langkah pertama bagi siapa saja yang ingin menjadi web developer. Dengan
+            memahami HTML, seseorang dapat membuat halaman website sederhana sebelum mempelajari
+            teknologi lain seperti CSS, JavaScript, atau framework modern.
+          </p>
+          <p>
+            Karena mudah dipelajari dan memiliki struktur yang sederhana, HTML sering menjadi bahasa
+            pemrograman pertama yang dipelajari siswa jurusan RPL maupun programmer pemula di
+            seluruh dunia.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2>Form Saran</h2>
+        <form action="">
+          <table>
+            <tr>
+              <td><label for="username">Username</label></td>
+              <td><input type="text" name="username" id="username" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td><input type="email" name="email" id="email" /></td>
+            </tr>
+            <tr>
+              <td><label for="pesan">Saran</label></td>
+              <td><textarea name="pesan" id="pesan" cols="40" rows="10"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button type="submit">Kirim</button> <button type="reset">Reset</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright by @Ardivan 2026</p>
+    </footer>
+  </body>
+</html>
